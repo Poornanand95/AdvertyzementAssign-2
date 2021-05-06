@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>ZoomCar-Clone</title>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="content-container">
+        <div class="header__wrapper">
+          <div class="brand-logo">
+            <img src="./assets/logo/zoomcar-logo.svg" alt="" />
+          </div>
+          <nav class="nav">
+            <button class="btn__menu" id="js_btn-menu">
+              <i class="ri-menu-line"></i>
+            </button>
+            <div class="overlay hide"></div>
+            <div class="nav__list">
+              <div class="nav__close">
+                <button
+                  class="btn__nav-close"
+                  id="js_btn-close"
+                  aria-label="Close menu"
+                >
+                  <i class="ri-close-line"></i>
+                </button>
+              </div>
+              <ul class="nav__links">
+                <li class="nav__item"><a href="#">Offers</a></li>
+                <li class="nav__item"><a href="#">Subscription</a></li>
+                <li class="nav__item"><a href="#">Amigo</a></li>
+                <li class="nav__item"><a href="#">ZMS</a></li>
+                <li class="nav__item"><a href="#">MObile App</a></li>
+                <li class="nav__item"><a href="#">Signup</a></li>
+                <li class="nav__item"><a href="#">Login</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="hero">
+        <div class="hero__content">
+          <h1 class="hero__heading">DRIVE IN A SANITISED ZOOMCAR</h1>
+          <p class="hero__description">
+            Self Drive Car Rental in
+            <select name="cities" id="cities">
+              <option value="bangalore" selected>Bangalore</option>
+              <option value="delhi">Delhi</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="lucknow">Lucknow</option>
+            </select>
+          </p>
+          <a class="hero__btn" href="#"
+            ><span>Start your wonderful journey</span>
+            <span class="hero__btn--icon"
+              ><i class="ri-arrow-right-s-line"></i
+            ></span>
+          </a>
+        </div>
+      </div>
+      <div class="content-container advantage-container">
+        <div class="advantage">
+          <div class="advantage__heading">
+            <h1 class="advantage__tag-line">THE ZOOMCAR ADVANTAGE</h1>
+            <p>
+              We simplified car rentals, so you can focus on what's important to
+              you.
+            </p>
+          </div>
+          <div class="cards-container">
+            <div class="each-card">
+              <img src="./assets/img/fuel-icon.JPG" alt="" />
+              <h3 class="card__text">Fuel Cost Included</h3>
+              <p>
+                Don't worry about mileage! All fuel costs are included. If you
+                refill fuell, we'll pay you back
+              </p>
+            </div>
+            <div class="each-card">
+              <img src="./assets/img/money-icon.JPG" alt="" />
+
+              <h3 class="card__text">No hidden Charges</h3>
+              <p>
+                Our prices include taxes and insurance. What you see is what you
+                really pay!
+              </p>
+            </div>
+            <div class="each-card">
+              <img src="./assets/img/package-icon.JPG" alt="" />
+
+              <h3 class="card__text">Flexi Pricing Packages</h3>
+              <p>
+                One size never fits all! Choose a balance of time and kilometers
+                that works best for you
+              </p>
+            </div>
+            <div class="each-card">
+              <img src="./assets/img/anywhere-icon.JPG" alt="" />
+
+              <h3 class="card__text">Go Anywhere</h3>
+              <p>
+                Our cars have all-india permits. Just <br />remember to pay
+                state tolls and entry taxes.
+              </p>
+            </div>
+            <div class="each-card">
+              <img src="./assets/img/assistance-icon.JPG" alt="" />
+              <h3 class="card__text">24x7 Roadside Assistance</h3>
+              <p>
+                We have round-the-clock, pan India <br />
+                partners. Help is never far away from you.
+              </p>
+            </div>
+            <div class="each-card">
+              <img src="./assets/img/damage-icon.JPG" alt="" />
+
+              <h3 class="card__text">Damage Insurance</h3>
+              <p>
+                All your bookings, include damage insurance! <br />
+                Drive safe, but don't worry!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="content-container"></div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
